@@ -1,0 +1,318 @@
+@charset "UTF-8";
+.static_topBar {
+  width: 100%; }
+  .static_topBar a {
+    display: block; }
+    .static_topBar a img {
+      width: 100%; }
+
+.topbar {
+  width: 100%;
+  height: 31px;
+  border-bottom: 1px solid #E4E4E4;
+  background: #fff; }
+  .topbar .topbar_containt {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    padding-top: 6px; }
+    .topbar .topbar_containt .topbar-left {
+      float: left;
+      width: 310px;
+      height: 30px; }
+      .topbar .topbar_containt .topbar-left .topbar-left-contain {
+        height: 100px;
+        height: 100%; }
+      .topbar .topbar_containt .topbar-left a {
+        display: block;
+        float: left;
+        height: 100%;
+        font: 12px "微软雅黑";
+        color: #28282E;
+        text-align: center; }
+      .topbar .topbar_containt .topbar-left span {
+        display: block;
+        float: left;
+        height: 100%;
+        font: 12px "微软雅黑";
+        color: #28282E; }
+      .topbar .topbar_containt .topbar-left .country_icon {
+        width: 28px;
+        height: 28px;
+        margin-top: -2px;
+        overflow: hidden;
+        background: url("https://img1.xiji.com/themes/ecstore/images/index_161107/pop_setting_bg01_180209.png") left 0 top -75px no-repeat; }
+      .topbar .topbar_containt .topbar-left .country_txt {
+        width: 37px; }
+      .topbar .topbar_containt .topbar-left .country_coin {
+        width: 43px;
+        padding-right: 10px;
+        box-sizing: content-box;
+        background: url("https://img1.xiji.com/themes/ecstore/images/index_160509/top_sel_bg.jpg") right 0 top 1px no-repeat; }
+      .topbar .topbar_containt .topbar-left em {
+        display: block;
+        float: left;
+        margin-top: 3px;
+        width: 0;
+        height: 12px;
+        border-right: 1px dashed #ddd; }
+    .topbar .topbar_containt .topbar-right {
+      float: right;
+      width: 300px;
+      height: 30px; }
+      .topbar .topbar_containt .topbar-right em {
+        display: block;
+        float: right;
+        margin-top: 3px;
+        width: 0;
+        height: 12px;
+        border-right: 2px solid #E4E4E4; }
+      .topbar .topbar_containt .topbar-right a {
+        display: block;
+        height: 30px;
+        text-align: center;
+        font-size: 12px;
+        color: #787878;
+        padding: 0 14px; }
+      .topbar .topbar_containt .topbar-right .topbar-right-item {
+        float: right;
+        height: 100%; }
+      .topbar .topbar_containt .topbar-right .service-link {
+        position: relative;
+        padding-right: 10px; }
+        .topbar .topbar_containt .topbar-right .service-link .service-link-title {
+          background: url("https://img1.xiji.com/themes/ecstore/images/index_160509/top_service_arr.png") right 0 top 2px no-repeat;
+          padding-right: 18px; }
+        .topbar .topbar_containt .topbar-right .service-link .service-link-detail {
+          position: absolute;
+          top: 25px;
+          left: 0;
+          background: #fff;
+          display: none; }
+          .topbar .topbar_containt .topbar-right .service-link .service-link-detail a {
+            width: 90px;
+            height: 25px;
+            border: 1px solid #d9d8d8;
+            border-top: none;
+            padding-top: 4px; }
+          .topbar .topbar_containt .topbar-right .service-link .service-link-detail div:hover {
+            background: #ccc; }
+          .topbar .topbar_containt .topbar-right .service-link .service-link-detail .online-server {
+            background: url("https://img1.xiji.com/themes/ecstore/images/index_160509/top_service_icon.png") left 7px top 0 no-repeat;
+            padding: 3px 0 0 20px; }
+          .topbar .topbar_containt .topbar-right .service-link .service-link-detail .help-center {
+            background: url("https://img1.xiji.com/themes/ecstore/images/index_160509/top_service_icon.png") left 7px top -26px no-repeat;
+            padding: 3px 0 0 20px; }
+      .topbar .topbar_containt .topbar-right .service-link:hover .service-link-detail {
+        display: block; }
+
+header {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  height: 145px; }
+  header h1 {
+    position: absolute;
+    left: 20px;
+    top: 40px; }
+    header h1 a {
+      display: block; }
+  header .header-main {
+    width: 505px;
+    margin: 0 auto;
+    padding-top: 40px; }
+    header .header-main .search {
+      height: 46px;
+      width: 440px;
+      border: 1px solid #ED5831;
+      border-right: none;
+      outline: none;
+      padding: 1px 0 0 5px;
+      float: left; }
+    header .header-main .submit {
+      height: 46px;
+      width: 61;
+      padding: 0 20px;
+      background-color: #ED5831;
+      border: none;
+      display: block;
+      float: left;
+      outline: none; }
+      header .header-main .submit span {
+        display: block;
+        height: 100%;
+        width: 21px;
+        background: url("https://img1.xiji.com/themes/ecstore/images/index_161107/search_icon.png") top 11px left 0 no-repeat; }
+    header .header-main .hots {
+      width: 505px;
+      padding-top: 5px; }
+      header .header-main .hots a {
+        display: block;
+        float: left;
+        margin-right: 17px;
+        font-size: 12px;
+        color: #999; }
+      header .header-main .hots a:hover {
+        text-decoration: underline; }
+  header .personal_center {
+    width: 162px;
+    overflow: hidden;
+    height: 35px;
+    border: 1px solid #f6f6f6;
+    position: absolute;
+    top: 40px;
+    right: 125px;
+    padding-bottom: 17px;
+    z-index: 5;
+    transition: 0.5s; }
+    header .personal_center .sign_top {
+      width: 100%;
+      height: 46px;
+      padding: 10px; }
+      header .personal_center .sign_top .sign_top_inner {
+        height: 100%;
+        width: 100%;
+        padding-left: 33px;
+        background: url("https://img1.xiji.com/themes/ecstore/images/index_161107/login_icon.png") left 0 top 0 no-repeat; }
+        header .personal_center .sign_top .sign_top_inner a {
+          margin-right: 10px;
+          font-size: 14px;
+          color: #000; }
+    header .personal_center .signin-box {
+      width: 140px;
+      text-align: center;
+      padding-top: 20px;
+      margin: 0 auto; }
+      header .personal_center .signin-box .login-btn {
+        width: 106px;
+        height: 33px;
+        border-radius: 5px;
+        text-align: center;
+        display: block;
+        color: #fff;
+        background: #ED5831;
+        margin: 0 auto 10px;
+        padding-top: 5px;
+        font-size: 14px; }
+      header .personal_center .signin-box p {
+        color: #666;
+        font-size: 13px;
+        margin-bottom: 8px; }
+      header .personal_center .signin-box .signup-btn {
+        padding-right: 17px;
+        background: url("https://img1.xiji.com/themes/ecstore/images/index_161107/signup_icon.png") right 0 top 5px no-repeat;
+        color: #ED5831; }
+  header .personal_center:hover {
+    background: #fff;
+    border: 1px solid #c9c9c9;
+    height: 164px; }
+  header #minicart_wrap {
+    position: absolute;
+    right: 0;
+    top: 40px;
+    width: 112px;
+    height: 46px; }
+    header #minicart_wrap .has-minicart {
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: 4;
+      width: 112px;
+      height: 46px;
+      border: 1px solid #f6f6f6; }
+      header #minicart_wrap .has-minicart .minicart-text {
+        display: block;
+        padding-left: 45px;
+        margin: 10px 0 10px 10px;
+        height: 24px;
+        width: 102px;
+        color: #000;
+        position: relative;
+        background: url("https://img1.xiji.com/themes/ecstore/images/index_161107/cart_icon.png") left 0 top 0 no-repeat; }
+        header #minicart_wrap .has-minicart .minicart-text .cart-txt {
+          display: block;
+          font-size: 14px;
+          line-height: 24px; }
+        header #minicart_wrap .has-minicart .minicart-text .op-cart-number {
+          position: absolute;
+          top: -8px;
+          left: 17px;
+          height: 25px;
+          width: 25px;
+          border-radius: 50%;
+          text-align: center;
+          line-height: 25px;
+          color: #fff;
+          background: #ED5831; }
+    header #minicart_wrap .minicart-cont {
+      display: none;
+      position: absolute;
+      top: 45px;
+      right: 0;
+      z-index: 3;
+      border: 1px solid #c9c9c9;
+      padding-top: 15px;
+      width: 300px; }
+      header #minicart_wrap .minicart-cont .no-information {
+        padding: 30px 0;
+        text-align: center;
+        font-size: 12px;
+        color: #666;
+        line-height: 18px; }
+  header #minicart_wrap:hover {
+    background: #fff; }
+    header #minicart_wrap:hover .minicart-cont {
+      display: block;
+      background: #fff; }
+    header #minicart_wrap:hover .has-minicart {
+      border-color: #c9c9c9;
+      border-bottom-color: #fff; }
+
+nav {
+  width: 100%;
+  height: 39px;
+  border-bottom: 2px solid #212121; }
+  nav .inner-wrap {
+    width: 1200px;
+    margin: 0 auto; }
+    nav .inner-wrap .category-list {
+      float: left;
+      position: relative;
+      width: 320px;
+      height: 100%; }
+      nav .inner-wrap .category-list .CFBtn {
+        width: 100%;
+        height: 37px;
+        padding-left: 50px;
+        background: url("https://img0.xiji.com/themes/ecstore/images/index_161107/catagory_tit_bg.png") 18px 1px no-repeat;
+        line-height: 37px;
+        color: #000; }
+      nav .inner-wrap .category-list .CFList {
+        position: absolute;
+        left: 0;
+        top: 39px;
+        z-index: 1000;
+        height: 390px;
+        width: 320px;
+        background: #333; }
+    nav .inner-wrap .menu {
+      float: left;
+      height: 37px; }
+      nav .inner-wrap .menu ul {
+        height: 100%;
+        width: 100%; }
+        nav .inner-wrap .menu ul li {
+          float: left;
+          height: 100%; }
+          nav .inner-wrap .menu ul li a {
+            display: block;
+            height: 27px;
+            line-height: 17px;
+            color: #000;
+            padding: 10px 60px 0 0; }
+          nav .inner-wrap .menu ul li .a-ga-na {
+            width: 170px;
+            background: url("https://img2.xiji.com/themes/ecstore/lang/zh_CN/images/nav/btn_amazing_180625.gif") no-repeat;
+            height: 37px; }
+        nav .inner-wrap .menu ul li:last-child a {
+          padding-right: 0; }
