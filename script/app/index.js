@@ -139,7 +139,7 @@ var swiper = new Swiper('.swiper-container', {
 
 
 
-
+// 大选项卡
         var indexB = 0;
         for(var i = 0 ; i < 9 ;i ++){
             indexB = i;
@@ -153,7 +153,47 @@ var swiper = new Swiper('.swiper-container', {
               
             })
         }
-  
+
+//右侧小选项卡
+        var indexS = 0;
+        for(var i = 0 ; i < 9 ;i ++){
+            indexS = i;
+        $(".store_item")[i].indexS = i;
+            $($(".store_item")[indexS]).on("mouseover",function(){
+            $(this).addClass("rightActive")
+            $(this).siblings().removeClass("rightActive")
+            
+            $($(".shop-content")[this.indexS]).addClass("shop_active");
+            $($(".shop-content")[this.indexS]).siblings().removeClass("shop_active");
+            
+            })
+        }
+        
+
+        var indexM = 0;
+        function next(){
+            if(indexM == 2 ){
+                indexM = 0 ;
+                $(".float_item").css({
+                    left:0
+                })    
+            }
+                indexM ++;
+                
+            
+            $(".float_item").css({
+                left:-indexM*921
+            })
+            
+        }
+        setInterval(function(){
+            
+            next()
+        },3000)
+        $(".control_next").on("click",function(){
+
+            next()
+        })
         
   })
 
