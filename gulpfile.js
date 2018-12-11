@@ -55,13 +55,14 @@ gulp.task("html",()=>{
 gulp.task("watch",()=>{
     gulp.watch("*.html",["html","sass"]);
     gulp.watch("sass/*.scss",["html","sass"]);
+    gulp.watch("script/app/*.js",["html","script"]);
 })
 gulp.task("default",["watch","connect","sass","script"]);//自动刷新功能
 
 // script 转存指令；
 gulp.task("script",()=>{
     return gulp.src(["script/libs/*.js",
-    "script/module/*.js","script/app/*.js","!script/libs/jquery.js"])
+    "script/module/*.js","script/app/*.js","!script/app/jquery.js"])
     // .pipe(concat("main.js"))
     // .pipe(uglify())
     .pipe(gulp.dest("dist/script"));

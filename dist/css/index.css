@@ -295,6 +295,108 @@ nav {
         height: 390px;
         width: 320px;
         background: #333; }
+        nav .inner-wrap .category-list .CFList .CFListContainer {
+          height: 100%;
+          width: 100%; }
+          nav .inner-wrap .category-list .CFList .CFListContainer .CFitem {
+            height: 12.5%;
+            width: 100%;
+            padding: 9px 20px; }
+            nav .inner-wrap .category-list .CFList .CFListContainer .CFitem:hover .sub-box {
+              display: block; }
+            nav .inner-wrap .category-list .CFList .CFListContainer .CFitem:hover .CFListLV03-item a {
+              color: #fff; }
+            nav .inner-wrap .category-list .CFList .CFListContainer .CFitem .category-link {
+              display: block;
+              float: left;
+              height: 100%;
+              width: 70px;
+              height: 30px;
+              color: #fff;
+              line-height: 30px;
+              text-align: left; }
+            nav .inner-wrap .category-list .CFList .CFListContainer .CFitem .CFListLV03-item {
+              float: left;
+              width: 200px;
+              height: 100%; }
+              nav .inner-wrap .category-list .CFList .CFListContainer .CFitem .CFListLV03-item li {
+                float: left;
+                height: 30px;
+                line-height: 30px;
+                color: #999;
+                font-size: 12px; }
+                nav .inner-wrap .category-list .CFList .CFListContainer .CFitem .CFListLV03-item li a {
+                  height: 30px;
+                  line-height: 30px;
+                  color: #999;
+                  font-size: 12px; }
+            nav .inner-wrap .category-list .CFList .CFListContainer .CFitem .sub-box {
+              display: none;
+              width: 880px;
+              height: 390px;
+              position: absolute;
+              left: 320px;
+              top: 0;
+              background: #fff; }
+              nav .inner-wrap .category-list .CFList .CFListContainer .CFitem .sub-box .sub-item-box {
+                width: 640px;
+                float: left; }
+                nav .inner-wrap .category-list .CFList .CFListContainer .CFitem .sub-box .sub-item-box .CFListLV02Text {
+                  width: 580px;
+                  padding: 12px 0;
+                  margin: 0 40px 0 20px;
+                  border-bottom: 1px dotted #e4e4e4; }
+                  nav .inner-wrap .category-list .CFList .CFListContainer .CFitem .sub-box .sub-item-box .CFListLV02Text a:hover {
+                    color: #ED5831; }
+                  nav .inner-wrap .category-list .CFList .CFListContainer .CFitem .sub-box .sub-item-box .CFListLV02Text dt {
+                    float: left;
+                    width: 74px; }
+                    nav .inner-wrap .category-list .CFList .CFListContainer .CFitem .sub-box .sub-item-box .CFListLV02Text dt a {
+                      color: #333;
+                      font-size: 14px;
+                      font-weight: bold;
+                      text-align: right; }
+                    nav .inner-wrap .category-list .CFList .CFListContainer .CFitem .sub-box .sub-item-box .CFListLV02Text dt span {
+                      color: #333;
+                      font-size: 14px;
+                      font-weight: bold;
+                      text-align: right; }
+                  nav .inner-wrap .category-list .CFList .CFListContainer .CFitem .sub-box .sub-item-box .CFListLV02Text .CFListLV03 {
+                    width: 500px;
+                    float: right; }
+                    nav .inner-wrap .category-list .CFList .CFListContainer .CFitem .sub-box .sub-item-box .CFListLV02Text .CFListLV03 a {
+                      color: #333;
+                      display: inline-block;
+                      white-space: nowrap;
+                      line-height: 1.1;
+                      padding: 5px 8px 3px 0;
+                      font-size: 12px; }
+                      nav .inner-wrap .category-list .CFList .CFListContainer .CFitem .sub-box .sub-item-box .CFListLV02Text .CFListLV03 a:hover {
+                        color: #ED5831; }
+              nav .inner-wrap .category-list .CFList .CFListContainer .CFitem .sub-box .CFListLVBrand {
+                float: left;
+                width: 230px; }
+                nav .inner-wrap .category-list .CFList .CFListContainer .CFitem .sub-box .CFListLVBrand .brand-tit {
+                  width: 100%;
+                  text-align: center;
+                  font-size: 14px;
+                  padding: 15px 0;
+                  font-weight: bold; }
+                nav .inner-wrap .category-list .CFList .CFListContainer .CFitem .sub-box .CFListLVBrand .brands-box {
+                  width: 100%; }
+                  nav .inner-wrap .category-list .CFList .CFListContainer .CFitem .sub-box .CFListLVBrand .brands-box li {
+                    float: left;
+                    width: 100px;
+                    height: 61px;
+                    padding: 7px 0;
+                    border: 1px solid #D1D1D1;
+                    margin: 0 15px 15px 0;
+                    text-align: center;
+                    background: #fff; }
+                    nav .inner-wrap .category-list .CFList .CFListContainer .CFitem .sub-box .CFListLVBrand .brands-box li img {
+                      width: 90px;
+                      height: 45px;
+                      vertical-align: bottom; }
     nav .inner-wrap .menu {
       float: left;
       height: 37px; }
@@ -316,3 +418,313 @@ nav {
             height: 37px; }
         nav .inner-wrap .menu ul li:last-child a {
           padding-right: 0; }
+
+#banner {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative; }
+  #banner .swiper-button-prev {
+    left: 70%;
+    top: 57%;
+    height: 44px;
+    width: 31px;
+    background-image: url("https://img1.xiji.com/themes/ecstore/images/index_161107/control_btn.png");
+    background-size: 31px 183px;
+    background-position-y: -47px; }
+  #banner .swiper-button-next {
+    right: 27.5%;
+    top: 70%;
+    height: 44px;
+    width: 31px;
+    background-size: 31px 183px;
+    background-image: url("https://img1.xiji.com/themes/ecstore/images/index_161107/control_btn.png");
+    background-size: 31px 183px;
+    background-position-y: -1px; }
+  #banner .notice-coupon-box {
+    width: 180px;
+    height: 355px;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    z-index: 10;
+    background: #fff; }
+    #banner .notice-coupon-box .tab-box {
+      width: 100%;
+      height: 42px;
+      padding: 12px 15px 0;
+      border-bottom: 1px solid #e0dcd3; }
+      #banner .notice-coupon-box .tab-box .xj_notice_tab {
+        float: left;
+        width: 48px;
+        height: 100%;
+        text-align: center; }
+        #banner .notice-coupon-box .tab-box .xj_notice_tab a {
+          color: #ED5831;
+          font-size: 12px;
+          border-bottom: 1px solid #ED5831;
+          display: inline-block;
+          height: 25px; }
+      #banner .notice-coupon-box .tab-box .xj_coupon_tab {
+        float: left;
+        width: 77px;
+        height: 100%;
+        text-align: center; }
+        #banner .notice-coupon-box .tab-box .xj_coupon_tab a {
+          color: #333333;
+          font-size: 12px;
+          display: inline-block;
+          height: 25px; }
+    #banner .notice-coupon-box .newsContent {
+      height: 71px; }
+      #banner .notice-coupon-box .newsContent .content-box {
+        position: absolute;
+        top: 42px;
+        height: 71px;
+        padding: 10px 0;
+        margin: 0 15px;
+        border-bottom: 1px solid #e0dcd3; }
+        #banner .notice-coupon-box .newsContent .content-box a {
+          color: #333;
+          font-size: 14px; }
+      #banner .notice-coupon-box .newsContent .xj_coupons_block {
+        display: none; }
+    #banner .notice-coupon-box .app-img-box {
+      width: 100%;
+      text-align: center;
+      padding: 10px 0; }
+      #banner .notice-coupon-box .app-img-box img {
+        height: 135px;
+        width: 135px; }
+      #banner .notice-coupon-box .app-img-box .app-tit {
+        text-align: center; }
+        #banner .notice-coupon-box .app-img-box .app-tit a {
+          color: #333;
+          font-size: 12px;
+          display: block;
+          margin: 0 10px;
+          text-align: center;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          text-decoration: none;
+          line-height: 1.5; }
+          #banner .notice-coupon-box .app-img-box .app-tit a:hover {
+            text-decoration: underline; }
+      #banner .notice-coupon-box .app-img-box .app-txt {
+        text-align: center; }
+        #banner .notice-coupon-box .app-img-box .app-txt a {
+          color: #ED5831;
+          font-size: 12px;
+          margin: 0 10px;
+          text-align: center;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          text-decoration: none;
+          line-height: 1.5; }
+          #banner .notice-coupon-box .app-img-box .app-txt a:hover {
+            text-decoration: underline; }
+    #banner .notice-coupon-box .app-out-box {
+      width: 100%;
+      overflow: hidden;
+      height: 40px;
+      transition: 0.4s; }
+      #banner .notice-coupon-box .app-out-box:hover {
+        height: 220px; }
+      #banner .notice-coupon-box .app-out-box .app-txt-box {
+        height: 40px;
+        padding: 10px 8px;
+        width: 100%; }
+        #banner .notice-coupon-box .app-out-box .app-txt-box a {
+          display: block;
+          padding-left: 18px;
+          display: block;
+          background: url("https://img0.xiji.com/themes/ecstore/images/index_161107/phone_icon.png") top left no-repeat;
+          height: 21px;
+          line-height: 21px;
+          padding-left: 18px;
+          font-size: 14px;
+          color: #ED5831;
+          text-decoration: none; }
+      #banner .notice-coupon-box .app-out-box .app-show-box {
+        height: 180px;
+        width: 180px;
+        padding: 20px;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.5); }
+        #banner .notice-coupon-box .app-out-box .app-show-box img {
+          width: 140px;
+          height: 140px; }
+
+.newuser-area {
+  width: 1200px;
+  margin: 20px auto;
+  position: relative; }
+  .newuser-area .newuser-qrcode {
+    width: 160px;
+    height: 172px;
+    position: absolute;
+    top: 112px;
+    left: 750px;
+    z-index: 10;
+    opacity: 0;
+    transition: 0.5s; }
+  .newuser-area .groupBuy {
+    position: absolute;
+    left: 700px;
+    top: 20px;
+    width: 250px;
+    height: 100px; }
+
+.ad-special {
+  width: 1200px;
+  margin: 0 auto 25px; }
+  .ad-special ul {
+    width: 1220px; }
+    .ad-special ul li {
+      float: left;
+      margin-right: 20px; }
+      .ad-special ul li img {
+        width: 285px;
+        height: 185px; }
+
+.slide-item {
+  width: 1200px;
+  margin: 0 auto 25px; }
+
+.xj-limit-price {
+  width: 1200px;
+  margin: 0 auto 20px; }
+  .xj-limit-price .heading-block {
+    height: 72px;
+    padding: 22px 0; }
+    .xj-limit-price .heading-block h2 {
+      color: #000;
+      font-size: 28px;
+      display: inline; }
+    .xj-limit-price .heading-block .time-countdown {
+      float: right;
+      width: 305px;
+      height: 40px; }
+      .xj-limit-price .heading-block .time-countdown .ttl-box {
+        color: #454545;
+        font-size: 12px;
+        display: block;
+        float: left;
+        height: 30px;
+        line-height: 30px;
+        margin-right: 15px; }
+      .xj-limit-price .heading-block .time-countdown .time-box {
+        height: 30px;
+        line-height: 30px;
+        width: 150px;
+        color: #ccc;
+        margin-left: -20px; }
+        .xj-limit-price .heading-block .time-countdown .time-box em {
+          display: block;
+          border-radius: 50%;
+          background: #787878;
+          color: #fff;
+          float: left;
+          height: 30px;
+          width: 30px;
+          text-align: center;
+          font-size: 14px; }
+        .xj-limit-price .heading-block .time-countdown .time-box i {
+          display: block;
+          border-radius: 50%;
+          color: #ccc;
+          float: left;
+          height: 30px;
+          width: 30px;
+          text-align: center;
+          margin: 0 10px; }
+  .xj-limit-price .inner-wrap {
+    width: 100%; }
+    .xj-limit-price .inner-wrap .today-goods {
+      width: 804px;
+      float: left; }
+      .xj-limit-price .inner-wrap .today-goods li {
+        height: 180px;
+        width: 400px;
+        padding: 20px;
+        background: #fff;
+        float: left;
+        margin: 1px 2px 2px 0; }
+        .xj-limit-price .inner-wrap .today-goods li a {
+          display: block;
+          width: 100%;
+          height: 100%; }
+          .xj-limit-price .inner-wrap .today-goods li a img {
+            height: 140px;
+            display: block;
+            float: left; }
+          .xj-limit-price .inner-wrap .today-goods li a .goods-detail {
+            display: block;
+            float: left;
+            width: 210px;
+            height: 140px;
+            margin-left: 10px; }
+            .xj-limit-price .inner-wrap .today-goods li a .goods-detail .goods-name {
+              color: #6e6e6e;
+              font-size: 14px;
+              line-height: 20px;
+              height: 20px;
+              margin-bottom: 15px; }
+            .xj-limit-price .inner-wrap .today-goods li a .goods-detail .pro-con-box {
+              width: 100%;
+              height: 85px;
+              padding-top: 15px; }
+              .xj-limit-price .inner-wrap .today-goods li a .goods-detail .pro-con-box .goods-price {
+                font-size: 16px;
+                color: #ed5831;
+                font-weight: bold; }
+              .xj-limit-price .inner-wrap .today-goods li a .goods-detail .pro-con-box .goods-delete {
+                color: #999;
+                text-decoration: line-through;
+                font-size: 12px;
+                margin: 5px 0; }
+              .xj-limit-price .inner-wrap .today-goods li a .goods-detail .pro-con-box .buy-btn {
+                border: 1px solid #ed5831;
+                font-size: 14px;
+                color: #ed5831;
+                display: inline-block;
+                padding: 0 20px;
+                height: 32px;
+                line-height: 32px;
+                border-radius: 3px;
+                margin-top: 5px; }
+    .xj-limit-price .inner-wrap .tomorrow-goods {
+      width: 396px;
+      height: 363px;
+      float: left;
+      position: relative;
+      background: #fff;
+      overflow: hidden;
+      margin-top: 1px; }
+      .xj-limit-price .inner-wrap .tomorrow-goods .ttl-box {
+        position: absolute;
+        left: 0;
+        top: 20px;
+        z-index: 50;
+        width: 112px;
+        height: 34px;
+        line-height: 34px;
+        background: linear-gradient(to right, #ff782b 0%, #ff504b 100%);
+        color: #fff;
+        font-size: 18px;
+        padding: 0 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px; }
+    .xj-limit-price .inner-wrap ul {
+      height: 100%;
+      width: 100%;
+      position: relative; }
+      .xj-limit-price .inner-wrap ul li {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%; }
+        .xj-limit-price .inner-wrap ul li a {
+          width: 100%; }
