@@ -643,6 +643,7 @@ nav {
     width: 100%; }
     .xj-limit-price .inner-wrap .today-goods {
       width: 804px;
+      height: 363px;
       float: left; }
       .xj-limit-price .inner-wrap .today-goods li {
         height: 180px;
@@ -716,15 +717,175 @@ nav {
         padding: 0 20px;
         border-top-right-radius: 20px;
         border-bottom-right-radius: 20px; }
-    .xj-limit-price .inner-wrap ul {
+    .xj-limit-price .inner-wrap .goods-list {
       height: 100%;
       width: 100%;
       position: relative; }
-      .xj-limit-price .inner-wrap ul li {
+      .xj-limit-price .inner-wrap .goods-list .liActive {
+        opacity: 1; }
+      .xj-limit-price .inner-wrap .goods-list li {
         position: absolute;
         left: 0;
         top: 0;
         height: 100%;
-        width: 100%; }
-        .xj-limit-price .inner-wrap ul li a {
-          width: 100%; }
+        width: 100%;
+        opacity: 0;
+        transition: 0.4s; }
+        .xj-limit-price .inner-wrap .goods-list li a {
+          display: block;
+          width: 100%;
+          height: 300px;
+          margin-top: 20px; }
+          .xj-limit-price .inner-wrap .goods-list li a .goods-img {
+            width: 200px;
+            height: 200px;
+            margin: 0 auto; }
+            .xj-limit-price .inner-wrap .goods-list li a .goods-img img {
+              height: 200px;
+              width: 200px; }
+          .xj-limit-price .inner-wrap .goods-list li a .goods-name {
+            width: 200px;
+            height: 40px;
+            margin: 15px auto;
+            font-size: 14px;
+            line-height: 20px;
+            color: #6e6e6e;
+            text-align: center; }
+          .xj-limit-price .inner-wrap .goods-list li a .pro-con-box {
+            font-size: 16px;
+            font-weight: bold;
+            color: #ed5831;
+            text-align: center; }
+    .xj-limit-price .inner-wrap .control .left {
+      position: absolute;
+      z-index: 9900;
+      left: 0;
+      top: 130px;
+      width: 20px;
+      height: 40px;
+      background: #333;
+      opacity: 0.25;
+      color: #fff;
+      font-size: 18px;
+      line-height: 40px;
+      text-align: center;
+      font-weight: 900; }
+    .xj-limit-price .inner-wrap .control .right {
+      position: absolute;
+      z-index: 9900;
+      right: 0;
+      top: 130px;
+      width: 20px;
+      height: 40px;
+      background: #333;
+      opacity: 0.25;
+      color: #fff;
+      font-size: 18px;
+      line-height: 40px;
+      text-align: center;
+      font-weight: 900; }
+
+.middle-box {
+  width: 1200px;
+  margin: 0 auto; }
+  .middle-box .pre-hot-goods {
+    width: 921px; }
+    .middle-box .pre-hot-goods .xj-top10pro {
+      width: 100%; }
+      .middle-box .pre-hot-goods .xj-top10pro .heading-block {
+        width: 100%;
+        padding: 22px 0;
+        color: #000;
+        height: 72px; }
+        .middle-box .pre-hot-goods .xj-top10pro .heading-block h2 {
+          display: inline;
+          color: #000;
+          font-size: 28px;
+          line-height: 28px; }
+        .middle-box .pre-hot-goods .xj-top10pro .heading-block .sub-tit {
+          margin-left: 10px;
+          font-size: 14px;
+          color: #666; }
+      .middle-box .pre-hot-goods .xj-top10pro .tab-box {
+        background-color: #EBEBEB;
+        border-bottom: 1px solid #1A1A1A; }
+        .middle-box .pre-hot-goods .xj-top10pro .tab-box ul {
+          margin-bottom: -1px; }
+          .middle-box .pre-hot-goods .xj-top10pro .tab-box ul .tab_btn_active {
+            background: #fff;
+            border-top: 1px solid #ED5831;
+            color: #ED5831;
+            width: 105px; }
+          .middle-box .pre-hot-goods .xj-top10pro .tab-box ul li {
+            width: 102px;
+            color: #666666;
+            font-size: 14px;
+            border-top: 1px solid #EBEBEB;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            float: left;
+            cursor: pointer;
+            margin-bottom: -1px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            padding: 0 3px; }
+      .middle-box .pre-hot-goods .xj-top10pro .contents-box {
+        background-color: #FFFFFF;
+        width: 921px;
+        position: relative; }
+        .middle-box .pre-hot-goods .xj-top10pro .contents-box .contents-box-inner {
+          display: none;
+          position: absolute;
+          left: 0;
+          top: 0;
+          height: 291px;
+          width: 921px; }
+          .middle-box .pre-hot-goods .xj-top10pro .contents-box .contents-box-inner .goods-inner {
+            width: 184px;
+            height: 270px;
+            padding-top: 20px;
+            border: 1px solid #EBEBEB;
+            border-top: none;
+            float: left;
+            background: #fff; }
+            .middle-box .pre-hot-goods .xj-top10pro .contents-box .contents-box-inner .goods-inner .img-box {
+              width: 153px;
+              height: 153px;
+              position: relative;
+              margin: 0 auto 13px; }
+              .middle-box .pre-hot-goods .xj-top10pro .contents-box .contents-box-inner .goods-inner .img-box img {
+                height: 153px;
+                width: 153px; }
+            .middle-box .pre-hot-goods .xj-top10pro .contents-box .contents-box-inner .goods-inner .goods-name {
+              width: 100%;
+              height: 36px; }
+              .middle-box .pre-hot-goods .xj-top10pro .contents-box .contents-box-inner .goods-inner .goods-name a {
+                display: block;
+                width: 153px;
+                margin: 10px 15px;
+                line-height: 1.5;
+                color: #333;
+                height: 36px;
+                font-size: 12px;
+                overflow: hidden; }
+                .middle-box .pre-hot-goods .xj-top10pro .contents-box .contents-box-inner .goods-inner .goods-name a img {
+                  height: 16px;
+                  width: 25px;
+                  margin-right: 3px;
+                  vertical-align: -3px;
+                  display: inline; }
+            .middle-box .pre-hot-goods .xj-top10pro .contents-box .contents-box-inner .goods-inner .goods-price {
+              width: 153px;
+              height: 48px;
+              font-size: 16px;
+              margin: 0 15px;
+              line-height: 24px; }
+              .middle-box .pre-hot-goods .xj-top10pro .contents-box .contents-box-inner .goods-inner .goods-price .xj-price {
+                font-weight: bold;
+                margin-right: 2px;
+                color: #333;
+                font-size: 16px; }
+        .middle-box .pre-hot-goods .xj-top10pro .contents-box .box_active {
+          display: block; }

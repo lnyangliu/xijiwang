@@ -97,6 +97,64 @@ var swiper = new Swiper('.swiper-container', {
         $(".minute-surplus").html(nMinute);
         $(".second-surplus").html(nSecond);
         },1000)
+
+
+
+
+        var indexNow = 0;
+        var imgs = $(".goods-list li")
+        // var points = $("#points span")
+        $(".left").on("click",prev)
+        $(".right").on("click",next)
+
+        function next(){
+            // indexNow ++;
+            if(indexNow == imgs.length - 1){
+                indexNow = 0;
+            }else{
+                indexNow ++;
+            }
+            changeClass()
+        }
+
+        function prev(){
+            // indexNow ++;
+            if(indexNow == 0){
+                indexNow = imgs.length - 1;
+                
+            }else{
+                indexNow --;
+            }
+            changeClass()
+        }
+
+        function changeClass(){
+            
+            $(imgs[indexNow]).addClass("liActive")
+            .siblings("li")
+            .removeClass("liActive")
+
+        }
+
+
+
+
+
+        var indexB = 0;
+        for(var i = 0 ; i < 9 ;i ++){
+            indexB = i;
+          $(".tab_btn")[i].indexB = i;
+            $($(".tab_btn")[indexB]).on("mouseover",function(){
+              $(this).addClass("tab_btn_active")
+              $(this).siblings().removeClass("tab_btn_active")
+              
+              $($(".contents-box-inner")[this.indexB]).addClass("box_active");
+              $($(".contents-box-inner")[this.indexB]).siblings().removeClass("box_active");
+              
+            })
+        }
+  
+        
   })
 
 
