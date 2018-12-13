@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <ul>
+        <% for(i = 0 ; i < data.length ; i++){ %>
+            <li> <%= data[i] %></li> 
+        <%  } %>
+    </ul>
+    <button id="btn">发送请求</button>
+    <script src="/javascripts/jquery.js"></script>
+    <script>
+        $("#btn").click(function(){
+          $.ajax({
+            url:"users/register",
+            type:"POST",
+            data:{username:"zhaosi55",password:"123456"}
+          })
+          .then(function(res){
+            console.log(res);
+          })
+        })
+    </script>
+  </body>
+</html>

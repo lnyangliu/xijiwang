@@ -1,0 +1,136 @@
+#body {
+  padding-top: 80px; }
+
+.passport-empty-inner {
+  width: 542px;
+  height: 752px;
+  margin: 0 auto;
+  border: 1px solid #d8d8d8;
+  background: #fff url("https://img1.xiji.com/themes/ecstore/images/passport/passport_bg_161124.png") no-repeat; }
+  .passport-empty-inner .signup-article {
+    padding: 150px 0 0 95px;
+    width: 445px; }
+    .passport-empty-inner .signup-article .userSelect {
+      width: 350px;
+      height: 49px;
+      margin-bottom: 20px;
+      position: relative; }
+      .passport-empty-inner .signup-article .userSelect .countryLabel {
+        position: absolute;
+        left: 13px;
+        top: -10px;
+        color: #a3a3a3;
+        z-index: 99;
+        text-align: left;
+        background-color: #fff;
+        padding: 0 10px;
+        font-size: 14px; }
+      .passport-empty-inner .signup-article .userSelect .xjExform-setpop-spl {
+        margin-right: 20px;
+        cursor: pointer;
+        position: relative;
+        z-index: 95; }
+        .passport-empty-inner .signup-article .userSelect .xjExform-setpop-spl .side-box {
+          width: 16px;
+          height: 10px;
+          background: url("https://img1.xiji.com/themes/ecstore/images/index_161107/pop_setting_bg01_180209.png") -5px -107px no-repeat;
+          position: absolute;
+          top: 15px;
+          right: 10px;
+          z-index: 205; }
+        .passport-empty-inner .signup-article .userSelect .xjExform-setpop-spl span {
+          display: block;
+          height: 49px;
+          line-height: 31px;
+          width: 350px;
+          font-size: 16px;
+          padding: 8px 35px 8px 11px;
+          border: 1px solid #e4e4e4;
+          background: #fff;
+          color: #787878;
+          cursor: pointer;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          position: relative;
+          z-index: 200; }
+          .passport-empty-inner .signup-article .userSelect .xjExform-setpop-spl span i {
+            vertical-align: middle;
+            background: url("https://img1.xiji.com/themes/ecstore/images/index_161107/pop_setting_bg01_180209.png") 0 -30px no-repeat;
+            width: 30px;
+            height: 20px;
+            margin-right: 10px;
+            display: inline-block; }
+    .passport-empty-inner .signup-article .chinaUserContent {
+      width: 100%; }
+      .passport-empty-inner .signup-article .chinaUserContent ul {
+        width: 100%; }
+        .passport-empty-inner .signup-article .chinaUserContent ul li {
+          width: 100%;
+          margin-bottom: 30px;
+          position: relative;
+          overflow: visible; }
+          .passport-empty-inner .signup-article .chinaUserContent ul li .x-input {
+            width: 350px;
+            height: 45px;
+            line-height: 45px;
+            padding: 1px 15px;
+            border: 1px solid #e4e4e4;
+            outline: none; }
+          .passport-empty-inner .signup-article .chinaUserContent ul li .caution-content {
+            position: absolute;
+            left: 5px;
+            top: 48px;
+            height: 16px;
+            line-height: 16px;
+            font-size: 12px;
+            vertical-align: middle;
+            color: #ED5831;
+            display: none; }
+          .passport-empty-inner .signup-article .chinaUserContent ul li .caution-content.active {
+            display: block; }
+        .passport-empty-inner .signup-article .chinaUserContent ul .form-act {
+          font-size: 12px;
+          display: block;
+          margin-bottom: 0;
+          height: 45px; }
+          .passport-empty-inner .signup-article .chinaUserContent ul .form-act .xjExform-checker {
+            float: left;
+            margin-right: 10px;
+            width: 20px; }
+            .passport-empty-inner .signup-article .chinaUserContent ul .form-act .xjExform-checker input {
+              border-width: 1px;
+              border-color: #ccc;
+              width: 18px;
+              height: 18px;
+              background: #fff; }
+          .passport-empty-inner .signup-article .chinaUserContent ul .form-act .form-sub-label {
+            display: block;
+            float: left; }
+            .passport-empty-inner .signup-article .chinaUserContent ul .form-act .form-sub-label .lnklike {
+              color: #0563c3; }
+  .passport-empty-inner .last {
+    margin-top: 10px;
+    width: 350px; }
+    .passport-empty-inner .last .submit {
+      width: 158px;
+      height: 47px;
+      background-color: #ED5831;
+      cursor: pointer;
+      border-radius: 3px;
+      padding-left: 60px;
+      padding-top: 10px;
+      float: left; }
+      .passport-empty-inner .last .submit #submib_btn {
+        display: block;
+        margin: 0 auto;
+        font-size: 20px;
+        color: #fff; }
+    .passport-empty-inner .last .tologin {
+      margin-top: 10px;
+      padding-left: 10px;
+      width: 180px;
+      float: left;
+      font-size: 12px; }
+      .passport-empty-inner .last .tologin a {
+        color: #0563c3; }

@@ -1,0 +1,61 @@
+const express = require('express');
+const router = express.Router();
+const mongoClient = require("mongodb").MongoClient;
+// const event = require("events");
+const fs = require("fs");
+
+// node.js 加密模块;
+const crypto = require("crypto");
+
+// class MyEvent extends Event{};
+// const me = new MyEvent();
+
+
+let url = "mongodb://localhost:27017";
+let dbName = "Users";
+
+router.get('/:type',dis , login);
+
+//分配需求
+function dis(req , res , next){
+  if(req.params == "login") return next();
+
+  // 注册逻辑;
+  if(req.params == "register") return res.status("400").end("bad request");
+  // res.send("欢迎注册")
+  let usr = req.query.username;
+  let pwd = req.query.password;
+  // res.send(usr +":"+ pwd);
+
+  mongoClient.connect(url, (err , client)=>{
+    if(err) return res.status("500").send("数据库错误");
+    searchUsers(usr,client)
+    .then(()=>{
+      //可以注册;
+      res.send("可以注册");
+
+    },(err)=>{
+      res.send(err);
+    })
+  })
+}
+function searchUsers(usr , client){
+  return new Promise((resolve, reject)=>{
+    const db = client.db(dbName);
+    const user_collection = db.collection("user_collection");
+    user_collection.find({username:usr}).toArray((err , data )=>{
+      if(data.length == 0 ){
+        resolve("用户名可用")
+      }else{
+        reject("用户名重名")
+      }
+    }) ;
+  })
+}
+
+//登录逻辑;
+function login(req,res,next){
+
+}
+
+module.exports = router;

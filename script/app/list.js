@@ -107,6 +107,7 @@ function handleCarClick(event){
       var iid = $(target).attr("data-iid");
       var nowMsg = findJson(iid)[0];
       addCar(nowMsg,iid);
+      renderCart()
 }
 function handleDetailClick(event){
       var e = event || window.event;
@@ -181,7 +182,7 @@ $("#minicart_wrap").on("mouseenter",function(){
     $(".minicart-cont").show();
 
     // console.log(getCart())
-   $(".minicart-cont").html(renderCart());
+   $(".cartContaint").html(renderCart());
 
 })
 renderCart()
@@ -208,8 +209,11 @@ function renderCart(){
       return html;
 }
 
-// $("#clear").on("click",function(){
-//       localStorage.clear("cart");
-// })
+$(".clearCart").on("click",function(){
+      localStorage.clear("cart");
+      $(".cartContaint").html("");
+      $(".op-cart-number").html("0")
+
+})
 
 
