@@ -194,7 +194,7 @@ header {
     top: 40px;
     right: 125px;
     padding-bottom: 17px;
-    z-index: 5;
+    z-index: 20;
     transition: 0.5s; }
     header .personal_center .sign_top {
       width: 100%;
